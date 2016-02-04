@@ -48,9 +48,6 @@ class MainViewController: UITableViewController {
                 }else{
                     self.hasMore = true
                 }
-                print("gr count")
-                print(groceries.count)
-                print(self.page)
                 if self.hasMore{
                     self.groceries += groceries
                 }
@@ -61,11 +58,11 @@ class MainViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.backgroundColor = UIColor.flatCoffeeColor()
-        self.navigationController?.navigationBar.barTintColor = UIColor.flatCoffeeColor()
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.flatWhiteColor()]
+        self.navigationController?.navigationBar.backgroundColor = UIColor.flatPlumColor()
+        self.navigationController?.navigationBar.barTintColor = UIColor.flatPlumColor()
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
         self.navigationController?.navigationBar.translucent = false
-        self.tableView.backgroundColor = UIColor.flatCoffeeColorDark()
+        self.tableView.backgroundColor = UIColor.flatPlumColorDark()
         
         self.tableView.emptyDataSetSource = self
         self.tableView.emptyDataSetDelegate = self
@@ -135,7 +132,7 @@ extension MainViewController{
         
         if indexPath.row == self.groceries.count{
             let cell = tableView.dequeueReusableCellWithIdentifier("LoadingItemCell") as! LoadingTableViewCell
-            cell.backgroundColor = UIColor.flatCoffeeColorDark()
+            cell.backgroundColor = UIColor.flatPlumColorDark()
             return cell
         }
         
@@ -154,7 +151,7 @@ extension MainViewController{
     }
     
     func configureCell(cell: GroceryTableViewCell, grocery:Grocery){
-        cell.backgroundColor = UIColor.flatCoffeeColorDark()
+        cell.backgroundColor = UIColor.flatPlumColorDark()
         
         cell.nameLabel.text = grocery.gShopname
         cell.descriptionLabel.text = grocery.gDescription
@@ -177,7 +174,7 @@ extension MainViewController: DZNEmptyDataSetSource{
     }
     
     func backgroundColorForEmptyDataSet(scrollView: UIScrollView!) -> UIColor! {
-        return UIColor.flatCoffeeColorDark()
+        return UIColor.flatPlumColorDark()
     }
     
     func titleForEmptyDataSet(scrollView: UIScrollView!) -> NSAttributedString! {

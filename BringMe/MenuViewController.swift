@@ -16,7 +16,7 @@ class MenuViewController: UIViewController,GuillotineMenu {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.flatCoffeeColor()
+        self.view.backgroundColor = UIColor.flatPlumColor()
         dismissButton = UIButton(frame: CGRectZero)
         dismissButton.setImage(UIImage(named: "ic_menu"), forState: .Normal)
         dismissButton.addTarget(self, action: "dismissButtonTapped:", forControlEvents: .TouchUpInside)

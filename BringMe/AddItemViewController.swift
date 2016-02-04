@@ -65,8 +65,14 @@ class AddItemViewController: UIViewController {
         configureButton()
         reloadItems()
         configureItemForm()
+        
+        self.view.backgroundColor = UIColor.flatPlumColorDark()
+        self.itemsCollectionView.backgroundColor = UIColor.flatPlumColor()
+        self.hiddenView.backgroundColor = UIColor.flatPlumColorDark()
+        
     }
     
+    @IBOutlet weak var hiddenView: UIView!
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

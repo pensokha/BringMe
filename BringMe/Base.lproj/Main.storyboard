@@ -208,15 +208,6 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0b-kA-4Ys">
-                                                                    <rect key="frame" x="19" y="51.5" width="42.5" height="20.5"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="18" id="99d-xd-cJV"/>
-                                                                    </constraints>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h4o-aS-eE5">
                                                                     <rect key="frame" x="18" y="8" width="44.5" height="44.5"/>
                                                                     <constraints>
@@ -224,6 +215,15 @@
                                                                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="55" id="YWc-bn-1PN"/>
                                                                     </constraints>
                                                                 </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0b-kA-4Ys">
+                                                                    <rect key="frame" x="19" y="51" width="42.5" height="20.5"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="18" id="99d-xd-cJV"/>
+                                                                    </constraints>
+                                                                    <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="14"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </view>
@@ -263,18 +263,18 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="wqr-V9-S6B"/>
                                         </constraints>
-                                        <color key="textColor" red="0.0" green="0.43319410089999999" blue="0.01295900159" alpha="1" colorSpace="deviceRGB"/>
-                                        <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                                <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                                                <color key="value" red="0.0" green="0.43319410089999999" blue="0.01295900159" alpha="1" colorSpace="deviceRGB"/>
+                                                <color key="value" red="0.13725490200000001" green="0.65098039220000004" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                                <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
@@ -296,22 +296,24 @@
                                                         <subviews>
                                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="37k-hF-kVd" customClass="HoshiTextField" customModule="TextFieldEffects">
                                                                 <rect key="frame" x="0.0" y="0.0" width="356" height="50"/>
-                                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="20"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="25"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                                                        <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                                                                        <color key="value" red="0.0" green="0.43319410089999999" blue="0.01295900159" alpha="1" colorSpace="deviceRGB"/>
+                                                                        <color key="value" red="0.13725490200000001" green="0.65098039220000004" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                                                        <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="iuh-1x-fKQ">
                                                                 <rect key="frame" x="356" y="21" width="94" height="29"/>
+                                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <connections>
                                                                     <action selector="switchControlAction:" destination="Ibg-1f-DW7" eventType="valueChanged" id="LHN-kQ-t2Q"/>
                                                                 </connections>
@@ -320,31 +322,33 @@
                                                     </stackView>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Price" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Z7-l6-tOb" customClass="HoshiTextField" customModule="TextFieldEffects">
                                                         <rect key="frame" x="0.0" y="50" width="450" height="50"/>
-                                                        <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="20"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="25"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                                                <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                                                                <color key="value" red="0.0" green="0.43319410089999999" blue="0.01295900159" alpha="1" colorSpace="deviceRGB"/>
+                                                                <color key="value" red="0.13725490200000001" green="0.65098039220000004" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                                                <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </textField>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="n8r-kM-Jxb">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="n8r-kM-Jxb">
                                                         <rect key="frame" x="0.0" y="100" width="450" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5P-OO-df4">
-                                                                <rect key="frame" x="0.0" y="35" width="401" height="15"/>
-                                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="14"/>
-                                                                <color key="textColor" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <rect key="frame" x="0.0" y="14" width="401" height="23"/>
+                                                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hww-tm-lQd">
-                                                                <rect key="frame" x="401" y="19" width="51" height="31"/>
+                                                                <rect key="frame" x="401" y="10" width="51" height="31"/>
+                                                                <color key="onTintColor" red="0.13725490200000001" green="0.65098039220000004" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                                             </switch>
                                                         </subviews>
                                                     </stackView>
@@ -364,28 +368,40 @@
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rom-Pv-HIi" userLabel="Save">
                                         <rect key="frame" x="0.0" y="415" width="560" height="0.0"/>
-                                        <state key="normal" title="Save"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Save">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="saveButtonAction:" destination="Ibg-1f-DW7" eventType="touchUpInside" id="YRj-kK-KTu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TjW-Sr-zqn" userLabel="Delete">
                                         <rect key="frame" x="0.0" y="420" width="560" height="19"/>
-                                        <state key="normal" title="Delete"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Delete">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="deleteButtonAction:" destination="Ibg-1f-DW7" eventType="touchUpInside" id="Mgy-VL-Ksk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QT-xd-bvC">
                                         <rect key="frame" x="0.0" y="444" width="560" height="30"/>
-                                        <state key="normal" title="Add"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Add">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="addItemToGrocery:" destination="Ibg-1f-DW7" eventType="touchUpInside" id="8yE-9Z-r0h"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qI-JM-V1I">
                                         <rect key="frame" x="0.0" y="479" width="560" height="30"/>
-                                        <state key="normal" title="Back to grocery"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Back to grocery">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="backToGrocery:" destination="Ibg-1f-DW7" eventType="touchUpInside" id="foW-di-xCw"/>
                                         </connections>
@@ -422,6 +438,7 @@
                         <outlet property="addButton" destination="7QT-xd-bvC" id="addButtonToOutlet"/>
                         <outlet property="deleteButton" destination="TjW-Sr-zqn" id="yOi-1J-NNF"/>
                         <outlet property="finishStatusSwitch" destination="hww-tm-lQd" id="v0i-NK-axQ"/>
+                        <outlet property="hiddenView" destination="wCg-Bz-Z4e" id="vUB-pe-a7C"/>
                         <outlet property="itemImage" destination="AFW-Rh-8UD" id="Oq6-ga-iTF"/>
                         <outlet property="itemsCollectionView" destination="dRl-Ad-oNz" id="Tg4-Pq-lnT"/>
                         <outlet property="nameTextField" destination="y8F-6A-eL5" id="GDC-c6-TDK"/>
@@ -450,33 +467,35 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="thx-0A-h4y"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                        <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                                        <color key="value" red="0.0" green="0.43319410089999999" blue="0.01295900159" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="value" red="0.13725490200000001" green="0.65098039220000004" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Description" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GHm-cW-DYd" customClass="HoshiTextField" customModule="TextFieldEffects">
                                 <rect key="frame" x="20" y="122" width="560" height="50"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                        <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
-                                        <color key="value" red="0.0" green="0.43319410089999999" blue="0.01295900159" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="value" red="0.13725490200000001" green="0.65098039220000004" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.058823529409999999" green="0.47450980390000003" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
@@ -489,13 +508,13 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="500" verticalHuggingPriority="251" text="Total Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Md-ez-owC">
                                                 <rect key="frame" x="0.0" y="0.0" width="106" height="22"/>
                                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U12-5U-PiX">
                                                 <rect key="frame" x="106" y="0.0" width="455" height="22"/>
                                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -506,13 +525,13 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="500" verticalHuggingPriority="251" text="Total Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="463-Yz-pqS">
                                                 <rect key="frame" x="0.0" y="0.0" width="78" height="22"/>
                                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ky-kc-oAt">
                                                 <rect key="frame" x="78" y="0.0" width="482" height="22"/>
                                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -523,13 +542,13 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="500" verticalHuggingPriority="251" text="Created Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpc-pc-CEq">
                                                 <rect key="frame" x="0.0" y="0.0" width="92" height="22"/>
                                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2J-Dp-UOl">
                                                 <rect key="frame" x="92" y="0.0" width="469" height="22"/>
                                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -540,21 +559,22 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="500" verticalHuggingPriority="251" text="Finished Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOl-ld-Ntd">
                                                 <rect key="frame" x="0.0" y="0.0" width="102" height="22"/>
                                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lky-oZ-DSJ">
                                                 <rect key="frame" x="102" y="0.0" width="459" height="22"/>
                                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shT-71-ZCP">
                                         <rect key="frame" x="0.0" y="126" width="560" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="View Items">
-                                            <color key="titleColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="viewItemsButton:" destination="eNi-jS-Fd8" eventType="touchUpInside" id="Sat-Bf-nMO"/>
@@ -602,11 +622,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Grocery Details" id="YID-ms-dXa">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="s91-rD-kum">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="cancelButton:" destination="eNi-jS-Fd8" id="KTy-Eu-dRp"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="KSW-Nr-LO3">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="ghb-8N-uL2" kind="unwind" unwindAction="returnFromEdit:" id="vTv-l8-v8E"/>
                             </connections>
@@ -654,13 +676,13 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Rn-8a-2Od">
                                         <rect key="frame" x="238.5" y="110" width="83.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yourEmail@example.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbS-5y-RbP">
                                         <rect key="frame" x="184.5" y="140.5" width="191.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3A9-0A-1cm">

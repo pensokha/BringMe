@@ -58,8 +58,9 @@ class EditGroceryViewController: UIViewController, UITextFieldDelegate {
         if grocery?.gShopname == nil{
             self.infoStackView.hidden = true
         }
-        self.navigationController?.navigationBar.barTintColor = UIColor.flatCoffeeColor()
-        self.view.backgroundColor = UIColor.flatCoffeeColorDark()
+        self.navigationController?.navigationBar.barTintColor = UIColor.flatPlumColor()
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+        self.view.backgroundColor = UIColor.flatPlumColorDark()
         updateUI()
     }
     

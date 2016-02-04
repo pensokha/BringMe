@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		13188A131C5E773600C90A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13188A121C5E773600C90A3B /* AppDelegate.swift */; };
-		13188A151C5E773600C90A3B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13188A141C5E773600C90A3B /* FirstViewController.swift */; };
-		13188A171C5E773600C90A3B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13188A161C5E773600C90A3B /* SecondViewController.swift */; };
+		13188A151C5E773600C90A3B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13188A141C5E773600C90A3B /* MenuViewController.swift */; };
+		13188A171C5E773600C90A3B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13188A161C5E773600C90A3B /* MainViewController.swift */; };
 		13188A1A1C5E773600C90A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13188A181C5E773600C90A3B /* Main.storyboard */; };
 		13188A1C1C5E773600C90A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13188A1B1C5E773600C90A3B /* Assets.xcassets */; };
 		13188A1F1C5E773600C90A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13188A1D1C5E773600C90A3B /* LaunchScreen.storyboard */; };
 		13188A2A1C5E773600C90A3B /* BringMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13188A291C5E773600C90A3B /* BringMeTests.swift */; };
+		136DC9FD1C5FAB6A00679AFB /* EditGroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136DC9FC1C5FAB6A00679AFB /* EditGroceryViewController.swift */; };
+		1388DD931C5F5A9600F9D826 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1388DD921C5F5A9600F9D826 /* CoreData.framework */; };
+		1388DD961C5F5ABE00F9D826 /* BMGrocery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1388DD941C5F5ABE00F9D826 /* BMGrocery.xcdatamodeld */; };
+		1388DD981C5F5ED000F9D826 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388DD971C5F5ED000F9D826 /* DataManager.swift */; };
+		1388DD9B1C5F600C00F9D826 /* Grocery+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388DD991C5F600C00F9D826 /* Grocery+CoreDataProperties.swift */; };
+		1388DD9C1C5F600C00F9D826 /* Grocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388DD9A1C5F600C00F9D826 /* Grocery.swift */; };
+		1390C62E1C601B9E008CB055 /* LoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390C62D1C601B9E008CB055 /* LoadingTableViewCell.swift */; };
+		139429881C5E88500093A27F /* GuillotineMenuTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139429871C5E88500093A27F /* GuillotineMenuTransitionAnimation.swift */; };
+		13D874901C624ECE003DD663 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D8748F1C624ECE003DD663 /* ItemCollectionViewCell.swift */; };
+		13D874921C624F2F003DD663 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D874911C624F2F003DD663 /* AddItemViewController.swift */; };
+		13D874971C6252E3003DD663 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D874951C6252E3003DD663 /* Item+CoreDataProperties.swift */; };
+		13D874981C6252E3003DD663 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D874961C6252E3003DD663 /* Item.swift */; };
+		13E3C1911C5FD3330055B4A9 /* GroceryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E3C1901C5FD3330055B4A9 /* GroceryTableViewCell.swift */; };
+		98143B61BD1C72126C313E8A /* Pods_BringMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63612DC936C2AAA766F6F864 /* Pods_BringMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +42,33 @@
 
 /* Begin PBXFileReference section */
 		13188A0F1C5E773600C90A3B /* BringMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BringMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13188A121C5E773600C90A3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13188A141C5E773600C90A3B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		13188A161C5E773600C90A3B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		13188A121C5E773600C90A3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BringMe/AppDelegate.swift; sourceTree = "<group>"; };
+		13188A141C5E773600C90A3B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		13188A161C5E773600C90A3B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		13188A191C5E773600C90A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13188A1B1C5E773600C90A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13188A1B1C5E773600C90A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BringMe/Assets.xcassets; sourceTree = "<group>"; };
 		13188A1E1C5E773600C90A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		13188A201C5E773600C90A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13188A201C5E773600C90A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BringMe/Info.plist; sourceTree = "<group>"; };
 		13188A251C5E773600C90A3B /* BringMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BringMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13188A291C5E773600C90A3B /* BringMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BringMeTests.swift; sourceTree = "<group>"; };
 		13188A2B1C5E773600C90A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136DC9FC1C5FAB6A00679AFB /* EditGroceryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditGroceryViewController.swift; sourceTree = "<group>"; };
+		1388DD921C5F5A9600F9D826 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1388DD951C5F5ABE00F9D826 /* BMGrocery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BMGrocery.xcdatamodel; sourceTree = "<group>"; };
+		1388DD971C5F5ED000F9D826 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1388DD991C5F600C00F9D826 /* Grocery+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Grocery+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1388DD9A1C5F600C00F9D826 /* Grocery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grocery.swift; sourceTree = "<group>"; };
+		1390C62D1C601B9E008CB055 /* LoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingTableViewCell.swift; sourceTree = "<group>"; };
+		139429871C5E88500093A27F /* GuillotineMenuTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuillotineMenuTransitionAnimation.swift; sourceTree = "<group>"; };
+		1394298B1C5E8CD80093A27F /* BringMe-Bridging-ScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BringMe-Bridging-ScrollView+EmptyDataSet.h"; path = "BringMe/BringMe-Bridging-ScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		13D8748F1C624ECE003DD663 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		13D874911C624F2F003DD663 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		13D874951C6252E3003DD663 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "BringMe/Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13D874961C6252E3003DD663 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = BringMe/Item.swift; sourceTree = "<group>"; };
+		13E3C1901C5FD3330055B4A9 /* GroceryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryTableViewCell.swift; sourceTree = "<group>"; };
+		63612DC936C2AAA766F6F864 /* Pods_BringMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BringMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7374E6A482D3538578743863 /* Pods-BringMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BringMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BringMe/Pods-BringMe.debug.xcconfig"; sourceTree = "<group>"; };
+		C34C39FD25A0FE4E9089CC51 /* Pods-BringMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BringMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-BringMe/Pods-BringMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1388DD931C5F5A9600F9D826 /* CoreData.framework in Frameworks */,
+				98143B61BD1C72126C313E8A /* Pods_BringMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +94,14 @@
 		13188A061C5E773600C90A3B = {
 			isa = PBXGroup;
 			children = (
+				13BF3B061C5F8DE7001A3CE3 /* Model */,
+				1394298B1C5E8CD80093A27F /* BringMe-Bridging-ScrollView+EmptyDataSet.h */,
 				13188A111C5E773600C90A3B /* BringMe */,
+				13188A341C5E77CC00C90A3B /* SupportFile */,
 				13188A281C5E773600C90A3B /* BringMeTests */,
 				13188A101C5E773600C90A3B /* Products */,
+				49999AA323501917FA08468C /* Pods */,
+				4ADA407AB818D352D646362B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +117,15 @@
 		13188A111C5E773600C90A3B /* BringMe */ = {
 			isa = PBXGroup;
 			children = (
-				13188A121C5E773600C90A3B /* AppDelegate.swift */,
-				13188A141C5E773600C90A3B /* FirstViewController.swift */,
-				13188A161C5E773600C90A3B /* SecondViewController.swift */,
+				139429871C5E88500093A27F /* GuillotineMenuTransitionAnimation.swift */,
+				13188A141C5E773600C90A3B /* MenuViewController.swift */,
+				13188A161C5E773600C90A3B /* MainViewController.swift */,
+				136DC9FC1C5FAB6A00679AFB /* EditGroceryViewController.swift */,
+				13D874911C624F2F003DD663 /* AddItemViewController.swift */,
 				13188A181C5E773600C90A3B /* Main.storyboard */,
-				13188A1B1C5E773600C90A3B /* Assets.xcassets */,
-				13188A1D1C5E773600C90A3B /* LaunchScreen.storyboard */,
-				13188A201C5E773600C90A3B /* Info.plist */,
+				13E3C1901C5FD3330055B4A9 /* GroceryTableViewCell.swift */,
+				1390C62D1C601B9E008CB055 /* LoadingTableViewCell.swift */,
+				13D8748F1C624ECE003DD663 /* ItemCollectionViewCell.swift */,
 			);
 			path = BringMe;
 			sourceTree = "<group>";
@@ -99,6 +139,48 @@
 			path = BringMeTests;
 			sourceTree = "<group>";
 		};
+		13188A341C5E77CC00C90A3B /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				13188A121C5E773600C90A3B /* AppDelegate.swift */,
+				13188A1B1C5E773600C90A3B /* Assets.xcassets */,
+				13188A1D1C5E773600C90A3B /* LaunchScreen.storyboard */,
+				13188A201C5E773600C90A3B /* Info.plist */,
+			);
+			name = SupportFile;
+			sourceTree = "<group>";
+		};
+		13BF3B061C5F8DE7001A3CE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13D874951C6252E3003DD663 /* Item+CoreDataProperties.swift */,
+				13D874961C6252E3003DD663 /* Item.swift */,
+				1388DD991C5F600C00F9D826 /* Grocery+CoreDataProperties.swift */,
+				1388DD9A1C5F600C00F9D826 /* Grocery.swift */,
+				1388DD971C5F5ED000F9D826 /* DataManager.swift */,
+				1388DD941C5F5ABE00F9D826 /* BMGrocery.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		49999AA323501917FA08468C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7374E6A482D3538578743863 /* Pods-BringMe.debug.xcconfig */,
+				C34C39FD25A0FE4E9089CC51 /* Pods-BringMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4ADA407AB818D352D646362B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1388DD921C5F5A9600F9D826 /* CoreData.framework */,
+				63612DC936C2AAA766F6F864 /* Pods_BringMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13188A2E1C5E773600C90A3B /* Build configuration list for PBXNativeTarget "BringMe" */;
 			buildPhases = (
+				638670EAF280D666AD57BC83 /* Check Pods Manifest.lock */,
 				13188A0B1C5E773600C90A3B /* Sources */,
 				13188A0C1C5E773600C90A3B /* Frameworks */,
 				13188A0D1C5E773600C90A3B /* Resources */,
+				2ECFDD358BE148A0805438C6 /* Embed Pods Frameworks */,
+				E1986D6F9E6994BB6C3D93AC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,14 +282,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ECFDD358BE148A0805438C6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BringMe/Pods-BringMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638670EAF280D666AD57BC83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1986D6F9E6994BB6C3D93AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BringMe/Pods-BringMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13188A0B1C5E773600C90A3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13188A171C5E773600C90A3B /* SecondViewController.swift in Sources */,
+				13D874971C6252E3003DD663 /* Item+CoreDataProperties.swift in Sources */,
+				13188A171C5E773600C90A3B /* MainViewController.swift in Sources */,
+				1388DD981C5F5ED000F9D826 /* DataManager.swift in Sources */,
 				13188A131C5E773600C90A3B /* AppDelegate.swift in Sources */,
-				13188A151C5E773600C90A3B /* FirstViewController.swift in Sources */,
+				13E3C1911C5FD3330055B4A9 /* GroceryTableViewCell.swift in Sources */,
+				1388DD9C1C5F600C00F9D826 /* Grocery.swift in Sources */,
+				13D874921C624F2F003DD663 /* AddItemViewController.swift in Sources */,
+				139429881C5E88500093A27F /* GuillotineMenuTransitionAnimation.swift in Sources */,
+				1388DD9B1C5F600C00F9D826 /* Grocery+CoreDataProperties.swift in Sources */,
+				1390C62E1C601B9E008CB055 /* LoadingTableViewCell.swift in Sources */,
+				13D874981C6252E3003DD663 /* Item.swift in Sources */,
+				13188A151C5E773600C90A3B /* MenuViewController.swift in Sources */,
+				13D874901C624ECE003DD663 /* ItemCollectionViewCell.swift in Sources */,
+				136DC9FD1C5FAB6A00679AFB /* EditGroceryViewController.swift in Sources */,
+				1388DD961C5F5ABE00F9D826 /* BMGrocery.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +386,7 @@
 				13188A1E1C5E773600C90A3B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = BringMe;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -329,23 +475,29 @@
 		};
 		13188A2F1C5E773600C90A3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7374E6A482D3538578743863 /* Pods-BringMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BringMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liu.se.kaichu.BringMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BringMe/BringMe-Bridging-ScrollView+EmptyDataSet.h";
 			};
 			name = Debug;
 		};
 		13188A301C5E773600C90A3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34C39FD25A0FE4E9089CC51 /* Pods-BringMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BringMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liu.se.kaichu.BringMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BringMe/BringMe-Bridging-ScrollView+EmptyDataSet.h";
 			};
 			name = Release;
 		};
@@ -392,6 +544,7 @@
 				13188A301C5E773600C90A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13188A311C5E773600C90A3B /* Build configuration list for PBXNativeTarget "BringMeTests" */ = {
 			isa = XCConfigurationList;
@@ -400,8 +553,22 @@
 				13188A331C5E773600C90A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1388DD941C5F5ABE00F9D826 /* BMGrocery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1388DD951C5F5ABE00F9D826 /* BMGrocery.xcdatamodel */,
+			);
+			currentVersion = 1388DD951C5F5ABE00F9D826 /* BMGrocery.xcdatamodel */;
+			path = BMGrocery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 13188A071C5E773600C90A3B /* Project object */;
 }

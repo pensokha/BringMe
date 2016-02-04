@@ -1,2 +1,2 @@
 # BringMe
-Shopping List for practice knowledge
+Shopping List for practicing knowledge
